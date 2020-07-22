@@ -14,7 +14,7 @@ class Directory extends React.Component{
                   title: 'hats',
                   imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
                   id: 1,
-                  linkUrl: 'shop/hats'
+                  linkUrl: 'hats'
                 },
                 {
                   title: 'jackets',
@@ -57,7 +57,12 @@ class Directory extends React.Component{
             //using section.title, section.id, etc
             //we will destructure the value and 
             //just pass in the exact value
-            this.state.sections.map(({imageUrl, title, id, size}) => (
+
+            //this.state.sections.map(({d, title, imageUrl, size, linkUrl}) => (
+              //     |
+              //equivalent 
+              //     |
+              this.state.sections.map(({id, ...otherSectionProps}) => (
 
                 //we are passing in title from our
                 //sections array in our state declsared above
@@ -72,7 +77,7 @@ class Directory extends React.Component{
                 //right-side: data being passed into MenuItem for variable 
                 //            title in MenuItem
                 //<----- F Y I ---->
-                <MenuItem  key={id} title={title} imageUrl={imageUrl} size={size}/>  
+                <MenuItem  key={id} {...otherSectionProps} />  
               ))
         }
         
