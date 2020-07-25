@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ecom-react-app/static/css/main.6f5de759.chunk.css",
+    "main.js": "/ecom-react-app/static/js/main.efeeca70.chunk.js",
+    "main.js.map": "/ecom-react-app/static/js/main.efeeca70.chunk.js.map",
+    "runtime-main.js": "/ecom-react-app/static/js/runtime-main.fa6ee422.js",
+    "runtime-main.js.map": "/ecom-react-app/static/js/runtime-main.fa6ee422.js.map",
+    "static/js/2.7f0cbf09.chunk.js": "/ecom-react-app/static/js/2.7f0cbf09.chunk.js",
+    "static/js/2.7f0cbf09.chunk.js.map": "/ecom-react-app/static/js/2.7f0cbf09.chunk.js.map",
+    "index.html": "/ecom-react-app/index.html",
+    "precache-manifest.4109ef3ea0969581d67611097c0a683c.js": "/ecom-react-app/precache-manifest.4109ef3ea0969581d67611097c0a683c.js",
+    "service-worker.js": "/ecom-react-app/service-worker.js",
+    "static/css/main.6f5de759.chunk.css.map": "/ecom-react-app/static/css/main.6f5de759.chunk.css.map",
+    "static/js/2.7f0cbf09.chunk.js.LICENSE.txt": "/ecom-react-app/static/js/2.7f0cbf09.chunk.js.LICENSE.txt",
+    "static/media/crown.ed28accb.svg": "/ecom-react-app/static/media/crown.ed28accb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa6ee422.js",
+    "static/js/2.7f0cbf09.chunk.js",
+    "static/css/main.6f5de759.chunk.css",
+    "static/js/main.efeeca70.chunk.js"
+  ]
+}
