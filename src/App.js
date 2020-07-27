@@ -11,7 +11,12 @@ import SignInAndSignUp from'./pages/sign-in-and-sign-up/sign-in-and-sign-up.comp
 //in our app
 import Header from './components/header/header.component';
 
-
+const ContactPage = () => (
+    
+  <div>
+  Contact Page under Construction
+  </div>
+);
 
 function App() {
   return (
@@ -21,6 +26,7 @@ function App() {
         <Route   exact path='/'       component={HomePage}/>
         <Route   exact path='/shop'   component={ShopPage}/>
         <Route   exact path='/signin' component={SignInAndSignUp}/>
+        <Route   exact path='/contact' component={ContactPage}/>
       </Switch> 
     </div>
   );
